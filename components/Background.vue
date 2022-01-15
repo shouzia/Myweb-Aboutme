@@ -26,16 +26,28 @@ export default {
     return {
       ImgList: [
         {
-          imgScr: 'https://s4.ax1x.com/2022/01/14/7GFpKs.jpg',
+          imgScr:
+            'https://tva1.sinaimg.cn/large/008f3Z8zgy1gyeo72ghydj31hc0u0wyp.jpg',
         },
         {
-          imgScr: 'https://s4.ax1x.com/2022/01/14/7GPctS.md.jpg',
+          imgScr:
+            'https://tva1.sinaimg.cn/large/008f3Z8zgy1gyeob6ro2oj31wv13o4ah.jpg',
         },
         {
-          imgScr: 'https://s4.ax1x.com/2022/01/14/7GF9rn.jpg',
+          imgScr:
+            'https://tva1.sinaimg.cn/large/008f3Z8zgy1gyenz0u46cj32pg1ca4qp.jpg',
         },
         {
-          imgScr: 'https://s4.ax1x.com/2022/01/14/7GFiV0.jpg',
+          imgScr:
+            'https://tva1.sinaimg.cn/large/008f3Z8zgy1gyenljcycuj31hc0u0du5.jpg',
+        },
+        {
+          imgScr:
+            'https://tva1.sinaimg.cn/large/008f3Z8zgy1gyenlk15cjj33341y4b29.jpg',
+        },
+        {
+          imgScr:
+            'https://tva1.sinaimg.cn/large/008f3Z8zgy1gyenljowtpj33341sw1kx.jpg',
         },
       ],
     }
@@ -51,10 +63,19 @@ export default {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-  filter: blur(4px);
-  transform: scale(1.02);
+  object-position: 60% 5%;
+  transform: scale(1.2);
+  animation: ImgMove 6s infinite;
 }
 .w-100 {
   width: 100vw;
+}
+@keyframes ImgMove {
+  form {
+    transform: scale(1.2) translateX(0%);
+  }
+  to {
+    transform: scale(1.2) translateX(-5%);
+  }
 }
 </style>
