@@ -25,4 +25,13 @@ export default {}
   line-height: 1;
   color: rgba(255, 255, 255, 0.75);
 }
+@media screen and (max-width: 800px) {
+  .Name {
+    margin: 30px 0px;
+    font-size: 2rem;
+  }
+  .Name-Content {
+    font-size: 1.2rem;
+  }
+}
 </style>
