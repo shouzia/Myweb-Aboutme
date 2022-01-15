@@ -6,6 +6,7 @@
         :key="index.icon"
         :href="index.link"
         class="Icon-style"
+        target="_blank"
       >
         <b-icon :icon="index.icon"></b-icon>
       </a>
@@ -14,7 +15,9 @@
     <div class="foot">
       <p>
         &copy;2019-{{ new Date().getFullYear() }}<span>|</span
-        ><a class="HYlink" href="https://108878.xyz">幻影官网</a>
+        ><a class="HYlink" target="_blank" href="https://108878.xyz"
+          >幻影官网</a
+        >
       </p>
     </div>
   </div>
