@@ -14,10 +14,12 @@
 
     <div class="foot">
       <p>
-        &copy;2019-{{ new Date().getFullYear() }}<span>|</span
-        ><a class="HYlink" target="_blank" href="https://108878.xyz"
-          >幻影官网</a
+        &copy;2019-{{ new Date().getFullYear() }}<span>|</span>
+        <a class="HYlink" target="_blank" href="https://blog.shouzi.xyz"
+          >瘦子Blog</a
         >
+        <span>|</span>
+        <a class="HYlink" target="_blank" href="https://hypin.cn">幻影官网</a>
       </p>
     </div>
   </div>
