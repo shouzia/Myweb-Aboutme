@@ -11,11 +11,20 @@
 
 <script>
 export default {
-  name: 'IndexPage',
-}
+  name: "IndexPage",
+};
 </script>
 
 <style>
+.Index {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale=1);
+  _filter: none;
+  filter: grayscale(100%);
+}
 .Bg-index {
   z-index: -1;
   position: fixed;
