@@ -27,27 +27,27 @@ export default {
       ImgList: [
         {
           imgScr:
-            'https://tva1.sinaimg.cn/large/008f3Z8zgy1gyeo72ghydj31hc0u0wyp.jpg',
+            'https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/008f3Z8zgy1gyeo72ghydj31hc0u0wyp.jpg',
         },
         {
           imgScr:
-            'https://tva1.sinaimg.cn/large/008f3Z8zgy1gyeob6ro2oj31wv13o4ah.jpg',
+            'https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/008f3Z8zgy1gyeob6ro2oj31wv13o4ah.jpg',
         },
         {
           imgScr:
-            'https://tva1.sinaimg.cn/large/008f3Z8zgy1gyenz0u46cj32pg1ca4qp.jpg',
+            'https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/008f3Z8zgy1gyenz0u46cj32pg1ca4qp.jpg',
         },
         {
           imgScr:
-            'https://tva1.sinaimg.cn/large/008f3Z8zgy1gyenljcycuj31hc0u0du5.jpg',
+            'https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/008f3Z8zgy1gyenljcycuj31hc0u0du5.jpg',
         },
         {
           imgScr:
-            'https://tva1.sinaimg.cn/large/008f3Z8zgy1gyenlk15cjj33341y4b29.jpg',
+            'https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/008f3Z8zgy1gyenlk15cjj33341y4b29.jpg',
         },
         {
           imgScr:
-            'https://tva1.sinaimg.cn/large/008f3Z8zgy1gyenljowtpj33341sw1kx.jpg',
+            'https://image.baidu.com/search/down?url=https://tva1.sinaimg.cn/large/008f3Z8zgy1gyenljowtpj33341sw1kx.jpg',
         },
       ],
     }
