@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --animate-duration: 1000ms;
+  --animate-delay: 1s;
+}
+
+body {
+  margin: 0;
+}

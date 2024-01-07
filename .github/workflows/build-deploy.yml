@@ -11,7 +11,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [14]
+        node: [20]
 
     # checkout@ 这里写你的分支名称
     steps:
@@ -23,11 +23,14 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
+      - name: Install pnpm
+        run: npm -g install pnpm
+
       - name: Install dependencies
-        run: npm install
+        run: pnpm install
 
       - name: Generate
-        run: npm run generate
+        run: pnpm build
 
       - name: Publish
         uses: cpina/github-action-push-to-another-repository@v1.3
